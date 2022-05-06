@@ -1,6 +1,5 @@
-const { kStringMaxLength } = require('buffer');
 const { Schema, model, Types } = require('mongoose');
-const Thought = require('./Thought')
+const Thought = require('./Thought.js')
 
 const UserSchema = new Schema({
 
@@ -14,9 +13,10 @@ const UserSchema = new Schema({
         type: String,
         required: [true, 'Email is required'],
         trim: true,
-        unique: true
+        unique: true,
+        match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
     },
-    thought: [
+    thoughts: [
     {
         type: Schema.Types.ObjectId,
         ref: 'Thought'
