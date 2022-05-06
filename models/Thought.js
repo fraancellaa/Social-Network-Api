@@ -29,7 +29,7 @@ const ReactionSchema = new Schema({
     }
 });
 
-const ThoughtsSchema = new Schema({
+const ThoughtSchema = new Schema({
     thoughtText: {
         type: String,
         required: [true, 'Thought is required'],
@@ -58,10 +58,10 @@ const ThoughtsSchema = new Schema({
 });
 
 // get total count of reactions
-ThoughtsSchema.virtual('reactionCount').get(function() {
+ThoughtSchema.virtual('reactionCount').get(function() {
     return this.reactions.length;
 });
 
-const Thoughts =  model('Thoughts', ThoughtsSchema);
+const Thought =  model('Thought', ThoughtSchema);
 
-module.exports = Thoughts;
+module.exports = Thought;

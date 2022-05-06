@@ -1,6 +1,6 @@
 const { kStringMaxLength } = require('buffer');
 const { Schema, model, Types } = require('mongoose');
-const Thoughts = require('./Thoughts')
+const Thought = require('./Thought')
 
 const UserSchema = new Schema({
 
@@ -16,10 +16,10 @@ const UserSchema = new Schema({
         trim: true,
         unique: true
     },
-    thoughts: [
+    thought: [
     {
         type: Schema.Types.ObjectId,
-        ref: 'Thoughts'
+        ref: 'Thought'
     }
     ],
     friends: [this]
