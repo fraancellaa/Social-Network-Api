@@ -1,4 +1,4 @@
-# Social-Newtork-Api
+# Social-Network-Api
 
 # Description
 Social Network is an API for a social network web application where users can share their thoughts, react to friends' thoughts and create a friend list. This project is using Express.js for routing, a MongoDB database, and the Mongoose ODM. Additionally, it uses a JavaScript date library.
