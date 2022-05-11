@@ -14,3 +14,4 @@ I WANT an API for my social network that uses a NoSQL database,
 SO THAT my website can handle large amounts of unstructured data.
 
 # Walthrough-Video
+[Walkthrough-Video-Pt.1](https://drive.google.com/file/d/1mkdTmel-GuxhbA3PVfTsGO7A5-dNolhs/view)
