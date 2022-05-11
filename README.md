@@ -13,6 +13,6 @@ AS A social media startup,
 I WANT an API for my social network that uses a NoSQL database,
 SO THAT my website can handle large amounts of unstructured data.
 
-# Walkthrough-Video
+# Walkthrough-Video 2 parts
 [Walkthrough-Video-Pt.1](https://drive.google.com/file/d/1mkdTmel-GuxhbA3PVfTsGO7A5-dNolhs/view) // 
 [Walkthrough-Video-Pt.2](https://drive.google.com/file/d/1Th_y_1GZufnx7YOveO9KubXKOf7Xjb8o/view)
