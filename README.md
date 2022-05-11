@@ -15,3 +15,4 @@ SO THAT my website can handle large amounts of unstructured data.
 
 # Walthrough-Video
 [Walkthrough-Video-Pt.1](https://drive.google.com/file/d/1mkdTmel-GuxhbA3PVfTsGO7A5-dNolhs/view)
+[Walkthrough-Video-Pt.2](https://drive.google.com/file/d/1Th_y_1GZufnx7YOveO9KubXKOf7Xjb8o/view)
